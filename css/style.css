@@ -8,7 +8,7 @@ header{
  height: 100px;
  background-color: rgb(0, 128, 255);
  background-image: url(../img/pattern.png);
- background-size: contain;
+ background-size: auto 200%;
 }
 header img{
   width: 140px;
@@ -30,4 +30,14 @@ h1{
 #data{
   font-size: 13px;
   margin-bottom: 20px;
+}
+section p span{
+  background-color: yellow;
+}
+ul{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+ul li span{
+  background-color: yellow;
 }
